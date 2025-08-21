@@ -37,7 +37,7 @@ function MemberCard({ member, onClick }) {
       className: `bg-white rounded-lg shadow-md p-4 sm:p-6 text-center cursor-pointer transform transition duration-700 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`,
       onClick: () => onClick(member)
     },
-    React.createElement("img", { src: member.profileImg, alt: member.name, className: "w-40 h-32 mx-auto rounded-lg object-cover" }),
+    React.createElement("img", { src: member.profileImg, alt: member.name, className: "w-40 h-60 mx-auto rounded-lg object-cover" }),
     React.createElement("h2", {
       className: "text-lg sm:text-xl font-semibold mt-2",
       style: { fontFamily: "Sequel100Black, sans-serif" }
